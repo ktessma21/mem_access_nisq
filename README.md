@@ -27,7 +27,7 @@ Ensure you have the following installed:
 2. **Create and activate a virtual environment:**
     ```bash
     python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    source venv/bin/activate
 
 3. **Install the required packages:**
     ```bash
@@ -35,6 +35,9 @@ Ensure you have the following installed:
 
 
 Navigate to the src/ directory and open the desired notebook.
+
+> **Note:** Before running `mem_accesses.ipynb`, make sure to download the [QASMBench benchmark suite](https://github.com/pnnl/QASMBench) and update the relevant file paths in the notebook to point to the correct locations on your machine.
+
 
 ## Usage
 
